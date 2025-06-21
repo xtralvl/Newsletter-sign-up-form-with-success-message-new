@@ -1,0 +1,142 @@
+@media (min-width: 1025px) {
+  html,
+  body {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  html {
+    background-color: #242742;
+  }
+  body {
+    background-color: white;
+    margin: 3rem;
+    border-radius: 20px;
+    padding: 1rem;
+  }
+  header {
+    margin: 0;
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header #mobile-decoration,
+  header #tablet-decoration {
+    display: none;
+  }
+  header #desktop-decoration {
+    grid-column: 2;
+    margin: 1rem;
+  }
+  main {
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  main h2, main ul li {
+    color: #242742;
+    text-shadow: none;
+    opacity: 1;
+    font-weight: 400;
+  }
+  main h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: hsl(234, 29%, 20%);
+    text-shadow: 1px 0 currentColor;
+  }
+  main h2 {
+    font-size: 1rem;
+    padding-right: 1rem;
+  }
+  main ul {
+    font-size: 1rem;
+    list-style: none;
+    padding-left: 0;
+  }
+  main ul li {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-self: center;
+    padding: 1rem 0;
+  }
+  main ul li img {
+    padding-right: 1rem;
+  }
+  main form {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  main form label {
+    font-weight: 900;
+    font-size: 0.8rem;
+    text-shadow: 0.5px 0 currentColor;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+  main form #label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  main form #label-container #error-message {
+    display: none;
+    color: red;
+    font-weight: 900;
+    font-size: 0.8rem;
+    text-shadow: 0.5px 0 currentColor;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+  main form input {
+    border-radius: 8px;
+    border: 0.5px solid rgba(36, 39, 66, 0.3960784314);
+    height: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+  }
+  main form input::placeholder {
+    color: hsl(0, 0%, 58%);
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  main form input:focus {
+    border: 1.5px solid #242742;
+    outline: none;
+  }
+  main form button {
+    border-radius: 8px;
+    border: none;
+    height: 3.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background: linear-gradient(to right, #FF6A3A 0%, #FF527B 100%);
+  }
+  footer {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1/3;
+  }
+  footer p {
+    margin: 0.5rem 0 0.15rem 0;
+  }
+  footer #frontend-mentor {
+    color: black;
+  }
+  footer #xtralvl {
+    color: hsl(4, 100%, 67%);
+    text-decoration: none;
+  }
+}
+
+/*# sourceMappingURL=desktop.css.map */

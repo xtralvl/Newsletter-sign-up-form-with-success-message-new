@@ -1,0 +1,10 @@
+{
+  "name": "newsletter-signup-form",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass styles/sass:styles/css --style=expanded"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
