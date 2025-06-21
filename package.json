@@ -1,1 +1,24 @@
-
+{
+  "name": "newsletter-sign-up-form-with-success-message-new",
+  "version": "1.0.0",
+  "description": "A responsive newsletter sign-up form with custom email validation logic, styled error states, and a success confirmation screen.   This project was built as part of the [Frontend Mentor challenge](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv?tab=submit).",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass styles/sass:styles/css --style=expanded --no-source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtralvl/Newsletter-sign-up-form-with-success-message-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtralvl/Newsletter-sign-up-form-with-success-message-new/issues"
+  },
+  "homepage": "https://github.com/xtralvl/Newsletter-sign-up-form-with-success-message-new#readme",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
